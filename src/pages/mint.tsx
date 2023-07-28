@@ -1,7 +1,6 @@
 import Head from 'next/head'
-//import { Inter } from 'next/font/google'
-
 import { useState, useEffect, ChangeEvent } from 'react';
+import { login, mint } from '@/services/Web3Service';
 
 export default function Mint() {
 
@@ -20,15 +19,27 @@ export default function Mint() {
   }
 
   function btnMintClick() {
-    setMessage("Minting");
-    alert("Mint!!!");
+    
+    setMessage("Minting...");
+    
+    mint(quantity)
+      .then(tx => {
+        setMessage("Tx Id: " + tx || "error")
+      })
+      .catch(err => setMessage(err.message));    
   }
   
   function btnLoginClick() {
+    
     setMessage("Logging in");
-    setWallet("0x957339c0b3F129B5AF1DF15A2cAb1301f6799f93");
-    localStorage.setItem("wallet","0x957339c0b3F129B5AF1DF15A2cAb1301f6799f93");
-    alert("Login!!!");
+    
+    login()
+      .then(wallet => {
+        setWallet(wallet);
+        localStorage.setItem("wallet",wallet);
+        setMessage("");
+      })
+      .catch(err => setMessage(err.message));
   }
   
   function btnLogoutClick() {
