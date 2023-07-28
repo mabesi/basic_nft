@@ -70,7 +70,7 @@ export default function Mint() {
             ? (
               <>
                 <br />
-                <a href={`https://testnets.opensea.io/${wallet}`} target='_blank'>
+                <a href={`${process.env.OPENSEA_URL}/${wallet}`} target='_blank'>
                   {wallet}
                 </a>
                 <br />
