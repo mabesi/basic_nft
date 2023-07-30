@@ -4,7 +4,7 @@ A frontend Web3 App for the [Mabesi Azuki NFT Collection](https://github.com/mab
 
 ## :speech_balloon: Description
 
-<p align="justify">This DApp is a frontend built with React to serve as a user interface for Smart Contract that implements the [ERC-721A](https://www.erc721a.org/) standard, Azuki's NFT standard, that supports minting multiple tokens for close to the cost of one.</p>
+This DApp is a frontend built with React to serve as a user interface for Smart Contract that implements the [ERC-721A](https://www.erc721a.org) standard, Azuki's NFT standard, that supports minting multiple tokens for close to the cost of one.
 
 <table>
     <tr>
