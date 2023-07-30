@@ -31,7 +31,6 @@ This DApp is a frontend built with Next.js, React and Tailwind CSS to serve as a
 - [Features](#features)
 - [Built With](#built-with)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Configuration](#configuration)
   - [Testing](#testing)
@@ -61,11 +60,6 @@ These are the key features of the Dapp:
 - Tailwind CSS
 
 ## Getting Started
-
-### Prerequisites
-
-- Pre 1
-- Pre 2
 
 ### Installation
 
@@ -142,6 +136,8 @@ Thanks to all these amazing people and tools that served as a source of knowledg
 - [LuizTools](https://www.luiztools.com.br/) - JavaScript and Web3 Online Courses
 
 ### See Also
+
+Enjoy these similar projects that can help you as a way of learning or as a basis for creating a larger project.
 
 - [Basic Token ERC-20](https://github.com/mabesi/solidity-coin-erc20)
 - [Basic Token BEP-20](https://github.com/mabesi/solidity-coin-bep20)
