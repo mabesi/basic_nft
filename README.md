@@ -31,6 +31,7 @@ This DApp is a frontend built with Next.js, React and Tailwind CSS to serve as a
 - [Features](#features)
 - [Built With](#built-with)
 - [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Configuration](#configuration)
   - [Usage](#usage)
@@ -53,6 +54,7 @@ These are the key features of the Dapp:
 
 ## Built With
 
+- Node.js
 - Next.js
 - React
 - Ethers.js
@@ -60,6 +62,12 @@ These are the key features of the Dapp:
 - Tailwind CSS
 
 ## Getting Started
+
+### Prerequisites
+
+- Node.js ^16.8.0
+- Wallet address in an EVM compatible chain
+- Balance to deploy the Smart Contract
 
 ### Installation
 
@@ -127,6 +135,7 @@ $ npm run build
 
 Thanks to all these amazing people and tools that served as a source of knowledge or were an integral part in the construction of this project.
 
+- [Node.js](https://nodejs.org/) - JavaScript Runtime Environment
 - [React](https://react.dev/) - Web Interface Library
 - [Next.js](https://nextjs.org/) - React Framework
 - [Ethers.js](https://ethers.org/) - Web3 Library
