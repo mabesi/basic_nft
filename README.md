@@ -66,8 +66,7 @@ These are the key features of the Dapp:
 ### Prerequisites
 
 - Node.js ^16.8.0
-- Wallet address in an EVM compatible chain
-- Balance to deploy the Smart Contract
+- An ERC-721A NFT deployed smart contract address
 
 ### Installation
 
