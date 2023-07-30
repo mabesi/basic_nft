@@ -4,7 +4,9 @@ A frontend Web3 App for the [Mabesi Azuki NFT Collection](https://github.com/mab
 
 ## :speech_balloon: Description
 
-This DApp is a frontend built with React to serve as a user interface for Smart Contract that implements the [ERC-721A](https://www.erc721a.org) standard, Azuki's NFT standard, that supports minting multiple tokens for close to the cost of one.
+This DApp is a frontend built with Next.js, React and Tailwind CSS to serve as a user interface for mint NFTs in a Smart Contract that implements the [ERC-721A](https://www.erc721a.org) standard, Azuki's NFT standard, that supports minting multiple tokens for close to the cost of one.
+
+
 
 <table>
     <tr>
@@ -32,10 +34,8 @@ This DApp is a frontend built with React to serve as a user interface for Smart 
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Configuration](#configuration)
-  - [Deploy](#deploy)
   - [Testing](#testing)
   - [Usage](#usage)
-  - [Troubleshooting](#troubleshooting)
 - [Back Matter](#back-matter)
   - [Acknowledgements](#acknowledgements)
   - [See Also](#see-also)
@@ -46,17 +46,19 @@ This DApp is a frontend built with React to serve as a user interface for Smart 
 
 ## Features
 
-These are the key features of the tool:
+These are the key features of the Dapp:
 
-- Feature 1: lorem ipsum
-- Feature 2: lorem ipsum.
-- Feature 3: lorem ipsum.
+- Web3 Login: login using your MetaMask wallet
+- Mint NFTs: mint one or more NFTs through the form
+- See in Opensea: view minted NFTs directly on the Opensea website
 
 ## Built With
 
-- Tecno 1
-- Tecno 2
-- Tecno 3
+- Next.js
+- React
+- Ethers.js
+- TypeScript
+- Tailwind CSS
 
 ## Getting Started
 
@@ -70,8 +72,8 @@ These are the key features of the tool:
 Clone the repository on your local machine and enter the project folder:
 
 ```bash
-$ git clone git@github.com:/ORG/PROJECT.git
-$ cd PROJECT
+$ git clone git@github.com:mabesi/dapp-nft.git
+$ cd dapp-nft
 ```
 Install the dependencies using npm:
 
@@ -87,22 +89,21 @@ $ yarn install
 
 ### Configuration
 
-Clone the `.env.example` file into a new `.env` file and adjust the values as described below, according to your environment.
+Clone the `.env.example` file into a new `.env` file and adjust the values as described below, according to your environment. Follow the example values:
 
-```js
-//ENV_VARIABLE_01=valor1
-ENV_VARIABLE_01=
+```bash
+#CONTRACT_ADDRESS=0x55E22399a11B33ae50408eC4d564652c395DB7e7
+CONTRACT_ADDRESS=
 
-//ENV_VARIABLE_02=valor2
-ENV_VARIABLE_02=
+#NFT_PRICE=0.01
+NFT_PRICE=
+
+#OPENSEA_URL=https://testnets.opensea.io
+OPENSEA_URL=
+
+#CHAIN_ID=43113
+CHAIN_ID=
 ```
-
-### Deploy
-
-To deploy the project follow these steps:
-
-1. Step 1
-2. Step 2
 
 ### Testing
 
@@ -114,9 +115,7 @@ $ npm test
 
 ### Usage
 
-The instructions to use the project functionalities.
-
-Run the development server:
+After deploy your smart contract and adjust the environment, run the development server:
 
 ```bash
 $ npm run dev
@@ -128,23 +127,26 @@ $ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Troubleshooting
-
-The instructions to troubleshooting the project problems.
-
 ## Back Matter
 
 ### Acknowledgements
 
 Thanks to all these amazing people and tools that served as a source of knowledge or were an integral part in the construction of this project.
 
-- [1](https://www.1.com/) - 1 item or person
-- [2](https://www.2.com/) - 2 item or person
+- [React](https://react.dev/) - Web Interface Library
+- [Next.js](https://nextjs.org/) - React Framework
+- [Ethers.js](https://ethers.org/) - Web3 Library
+- [TypeScript](https://www.typescriptlang.org/) - Typed Programming Language
+- [Tailwind CSS](https://tailwindcss.com/) - CSS Framework
+- [Creative Tim](https://www.creative-tim.com/) - UI Tools
+- [LuizTools](https://www.luiztools.com.br/) - JavaScript and Web3 Online Courses
 
 ### See Also
 
-- [Also 1](https://www.also1.com)
-- [Also 2](https://www.also2.com)
+- [Basic Token ERC-20](https://github.com/mabesi/solidity-coin-erc20)
+- [Basic Token BEP-20](https://github.com/mabesi/solidity-coin-bep20)
+- [Basic NFT ERC-721](https://github.com/mabesi/solidity-nft-erc721)
+- [Basic Multi Token ERC-1155](https://github.com/mabesi/solidity-multitoken-erc1155)
 
 ### Contributing
 
@@ -159,8 +161,8 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ### Authors & Contributors
 
-| [<img loading="lazy" src="https://myoctocat.com/assets/images/octocats/octocat-20.png" width=115><br><sub>Jonh Doe</sub>](https://github.com/jonhdoe) | [<img loading="lazy" src="https://myoctocat.com/assets/images/octocats/octocat-17.png" width=115><br><sub>Jane Doe</sub>](https://github.com/janedoe) |
-| :---: | :---: |
+| [<img loading="lazy" src="https://github.com/mabesi/mabesi/blob/master/octocat-mabesi.png" width=115><br><sub>Plinio Mabesi</sub>](https://github.com/mabesi) |
+| :---: |
 
 ### Legal Disclaimer
 
