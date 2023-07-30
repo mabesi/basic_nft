@@ -150,6 +150,7 @@ Enjoy these similar projects that can help you as a way of learning or as a basi
 - [Basic Token ERC-20](https://github.com/mabesi/solidity-coin-erc20)
 - [Basic Token BEP-20](https://github.com/mabesi/solidity-coin-bep20)
 - [Basic NFT ERC-721](https://github.com/mabesi/solidity-nft-erc721)
+- [Basic Azuki NFT ERC-721A](https://github.com/mabesi/azuki-nft)
 - [Basic Multi Token ERC-1155](https://github.com/mabesi/solidity-multitoken-erc1155)
 
 ### Contributing
