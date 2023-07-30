@@ -1,16 +1,28 @@
-# TITLE
+# MABESI AZUKI NFT DAPP
 
-Short description
+A frontend Web3 App for the [Mabesi Azuki NFT Collection](https://github.com/mabesi/azuki-nft) Smart Contract.
 
 ## :speech_balloon: Description
 
-<p align="justify">Long description.</p>
+<p align="justify">This DApp is a frontend built with React to serve as a user interface for Smart Contract that implements the [ERC-721A](https://www.erc721a.org/) standard, Azuki's NFT standard, that supports minting multiple tokens for close to the cost of one.</p>
 
-<div align="center">
-  <kbd>
-    <img src="/assets/image.png" />
-  </kbd>
-</div>
+<table>
+    <tr>
+        <td colspan='2'>
+            <kbd>
+                <img src="./assets/mabesi-azuki-nft-home.jpg" />
+            </kbd>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./assets/mabesi-azuki-nft-mint.jpg" />
+        </td>
+        <td>
+            <img src="./assets/mabesi-azuki-nft-opensea.jpg" />
+        </td>
+    </tr>
+<table>
 
 ## Table of contents
 
