@@ -107,11 +107,11 @@ The instructions to use the project functionalities.
 Run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+$ npm run dev
+```
+Or
+```bash
+$ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -126,8 +126,8 @@ The instructions to troubleshooting the project problems.
 
 Thanks to all these amazing people and tools that served as a source of knowledge or were an integral part in the construction of this project.
 
-- [1](https://www.1.com/) - 1 Definition
-- [2](https://www.2.com/) - 2 Definition
+- [1](https://www.1.com/) - 1 item or person
+- [2](https://www.2.com/) - 2 item or person
 
 ### See Also
 
