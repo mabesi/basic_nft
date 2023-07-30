@@ -146,7 +146,7 @@ Enjoy these similar projects that can help you as a way of learning or as a basi
 
 ### Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please first ask us for the details of code of conduct. After this follow these steps of the process for submitting pull requests to us.
 
 1.  Fork it!
 2.  Create your feature branch: `git checkout -b my-new-feature`
