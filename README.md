@@ -33,8 +33,8 @@ This DApp is a frontend built with Next.js, React and Tailwind CSS to serve as a
 - [Getting Started](#getting-started)
   - [Installation](#installation)
   - [Configuration](#configuration)
-  - [Testing](#testing)
   - [Usage](#usage)
+  - [Building](#building)
 - [Back Matter](#back-matter)
   - [Acknowledgements](#acknowledgements)
   - [See Also](#see-also)
@@ -99,14 +99,6 @@ OPENSEA_URL=
 CHAIN_ID=
 ```
 
-### Testing
-
-Run the test command, like this:
-
-```bash
-$ npm test
-```
-
 ### Usage
 
 After deploy your smart contract and adjust the environment, run the development server:
@@ -120,6 +112,14 @@ $ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+### Building
+
+Run the build command, like this:
+
+```bash
+$ npm run build
+```
 
 ## Back Matter
 
